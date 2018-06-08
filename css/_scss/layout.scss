@@ -1,0 +1,27 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  @include display-flex;
+  @include flex-direction(column);
+}
+
+main {
+  @include flex(1 0 auto);
+}
+
+// HOME
+
+.background {
+  background-size: cover;
+  background-position: center center;
+  background: color("blue", "darken-4");
+}
+
+.background-mask {
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(color("blue", "darken-4"), 0.50);
+}

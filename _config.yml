@@ -1,0 +1,39 @@
+gems:
+    - jekyll-assets
+    - jekyll-sitemap
+
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js', 'config.ru', 'vendor']
+
+sass:
+  sass_dir: css/_scss
+
+assets:
+  compress:
+    css: default
+    js: default
+
+  autowrite: true
+
+  assets:
+    - 'main.css'
+    - '*.js'
+
+  sources:
+    - css
+    - js
+
+# ------------------------
+
+# Build settings
+markdown: kramdown
+
+# Texts
+
+main:
+  title: 'WAM'
+  
+terms:
+  title: 'Aviso Legal'
+  
+cookies:
+  title: 'Cookies'

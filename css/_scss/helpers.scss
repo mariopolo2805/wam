@@ -1,0 +1,31 @@
+@import './_scss/mixins';
+// Flex rules
+.flex {
+  @include display-flex;
+}
+
+.flex-column {
+  @include display-flex;
+  @include flex-direction(column);
+}
+
+.flex-grow {
+  @include flex-grow(1);
+}
+
+.flex-row {
+  @include display-flex;
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
+
+  &.space-between {
+    @include justify-content(space-between);
+  }
+}
+// MEDIA Small Only
+@media only screen and (max-width: 601) {
+  .center-on-small-only {
+    text-align: center;
+  }
+}
