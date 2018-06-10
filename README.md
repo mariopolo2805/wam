@@ -2,6 +2,8 @@
 
 Se va a utilizar **Jekyll** como motor de templating para construir la landing planteada en `/assets`
 
+[Servidor de prueba](https://wam-mario-antonio-polo-daza.herokuapp.com/)
+
 ## Instalación y Construcción
 
 Paso a seguir para poder iniciar la aplicación:
