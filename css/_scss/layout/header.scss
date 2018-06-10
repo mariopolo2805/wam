@@ -1,0 +1,24 @@
+nav {
+  .nav-wrapper {
+    @include display-flex;
+    @include justify-content(space-between);
+    @include align-items(center);
+  }
+
+  .links {
+    @include flex(1 0 auto);
+    @include display-flex;
+    @include justify-content(space-around);
+  }
+
+  .logo,
+  .logo > img {
+    width: 113px;
+    height: 35px;
+    margin: 0 auto;
+  }
+
+  ul a {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,35 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  @include display-flex;
+  @include flex-direction(column);
+}
+
+main {
+  @include flex(1 0 auto);
+}
+
+.section {
+  padding: 3rem;
+
+  &.column {
+    @include display-flex;
+    @include flex-direction(column);
+    @include align-items(center);
+  }
+}
+
+.button-collapse,
+a {
+  color: color('grey', 'darken-4');
+
+  &.underline {
+    text-decoration: underline;
+  }
+}
+
+$breakpoint-md: 993px;
+$breakpoint-sm: 600px;

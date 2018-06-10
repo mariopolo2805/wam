@@ -31,9 +31,24 @@ markdown: kramdown
 
 main:
   title: 'WAM'
+  subtitle: 'Lorem ipsum'
+  description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+  keysellingpoint: 'Key Selling Point'
+  cta: 'This is a CTA'
+  sectionsubtitle: 'This is a subtitle'
+  sectiontitle: 'This is a title'
+  product: 'Product'
+  longdescription: 'This is a long description related to the product. Lorem ipsum dolor sit amet.'
   
-terms:
-  title: 'Aviso Legal'
+header:
+  link: 'LINK'
   
-cookies:
-  title: 'Cookies'
+footer:
+  link: 'LINK'
+  telephone1: 'FREE CALL TO OUR'
+  telephone2: 'TELEPHONE'
+  conditions: 'TERMS & CONDITIONS'
+  cookies: 'COOKIE POLICIE'
+  terms: 'LEGAL TERMS'
+  policy: 'PRIVACY POLICY'
+  copyright: 'COPYRIGHT © 2022 COMPANY. ALL RIGHTS RESERVED'
