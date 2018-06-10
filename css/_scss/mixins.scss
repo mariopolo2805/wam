@@ -86,3 +86,9 @@
   -webkit-flex-grow: $int;
   flex-grow: $int;
 }
+@mixin flex-flow($flow) {
+  -webkit-flex-flow: $flow;
+  -moz-flex-flow: $flow;
+  -ms-flex-flow: $flow;
+  flex-flow: $flow;
+}
